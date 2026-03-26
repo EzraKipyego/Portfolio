@@ -146,7 +146,114 @@ footer a {
 footer a:hover {
     color: orange;
 }
+/* ===================== */
+/* ABOUT PAGE */
+/* ===================== */
+.about {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+}
 
+.about h1 {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    color: orange;
+    margin: 30px 0 15px;
+}
+
+/* Skills grid */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Skill box */
+.skill {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background-color: orange;
+}
+
+
+/* CONTACT PAGE */
+.contact {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact h1 {
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+/* Social links */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    background-color: orange;
+}
+
+/* Improvements on Smooth spacing for sections */
+.projects,
+.about,
+.contact {
+    padding: 40px 20px;
+}
+
+/* Add hover effect to project cards */
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Improve hero text */
+.hero-text h2 {
+    color: orange;
+    margin-top: 10px;
+}
+
+/* Make navigation bar sticky (optional but modern) */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
 /* Created responsiveness in mobile view */
 @media (max-width: 768px) {
@@ -155,3 +262,4 @@ footer a:hover {
         text-align: center;
     }
 }
+
