@@ -1,4 +1,7 @@
-# Ezra Portfolio
+# Portfolio
+
+   # Author
+-Ezra Kipyego
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and contact information as a software engineering student and aspiring web developer at **Moringa School**.
 
